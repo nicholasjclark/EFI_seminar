@@ -2,7 +2,7 @@
 title: "Ecological forecasting with dynamic GAMs"
 institute: "School of Veterinary Science, University of Queensland, Australia"
 author: "Nicholas Clark"
-date: "1400 Thursday 6th November, 2023"
+date: "1400 Monday 6th November, 2023"
 output:
   xaringan::moon_reader:
     css: ['default','https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', 'slides.css']
