@@ -34,7 +34,7 @@ class: inverse, middle, left, my-title-slide, title-slide
 ### School of Veterinary Science, University of Queensland, Australia
 ]
 .date[
-### 1400 Monday 6th November, 2023
+### November, 2023
 ]
 
 ---
@@ -142,6 +142,8 @@ background-size: cover
 
 ## Gavin has you covered <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm177.6 62.1C192.8 334.5 218.8 352 256 352s63.2-17.5 78.4-33.9c9-9.7 24.2-10.4 33.9-1.4s10.4 24.2 1.4 33.9c-22 23.8-60 49.4-113.6 49.4s-91.7-25.5-113.6-49.4c-9-9.7-8.4-24.9 1.4-33.9s24.9-8.4 33.9 1.4zM144.4 208a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm192-32a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
 
+&lt;img width="230" height="230" src="resources/simpson_qr_code.svg" style="position:absolute; bottom:0px; right:0px"&gt;
+  
 ---
 
 class: middle center
@@ -728,6 +730,190 @@ Vignette &amp;#8680; [Time-varying effects](https://nicholasjclark.github.io/mvg
 Vignette &amp;#8680; [Multivariate State-Space models](https://nicholasjclark.github.io/mvgam/articles/trend_formulas.html)
 
 Motivating publication &amp;#8680; Clark &amp; Wells 2023 [*Methods in Ecology and Evolution*](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.13974)
+
+---
+class: inverse middle center big-subsection
+
+# Example
+---
+class: animated fadeIn
+background-image: url('./resources/pp_image.jpg')
+background-size: cover
+
+---
+class: animated fadeIn
+background-image: url('./resources/dm_image.png')
+background-size: cover
+
+---
+class: animated fadeIn
+background-image: url('./resources/mouse_image.jpg')
+background-size: cover
+
+---
+class: full-size
+## Long-term rodent monitoring
+&lt;img align="center" width="410" height="500" src="resources/portal_sampling.png" style="float: right; 
+  margin: 10px;"&gt;
+
+
+Monthly trapping in Portal, AZ, from 1977
+
+20 rodent species recorded
+
+Experimental evidence for interactions
+
+Both gradual and sudden regime transitions
+
+.emphasize[*What drives community dynamics?*]
+
+---
+background-image: url('./resources/raw_series.jpg')
+background-size: contain
+
+---
+background-image: url('./resources/model_definition.png')
+background-size: contain
+
+---
+class: full-size
+## Model components
+&lt;img align="center" width="530" height="370" src="resources/crank.jpg" style="float: right; 
+  margin: 10px;"&gt;
+
+.emphasize[*1. Multispecies temporal dynamics*]
+
+---
+background-image: url('./resources/VAR.svg')
+background-size: contain
+## VAR1 &amp;#8680; Granger causality
+
+---
+class: full-size
+## Model components
+&lt;img align="center" width="530" height="370" src="resources/crank.jpg" style="float: right; 
+  margin: 10px;"&gt;
+
+1. Multispecies temporal dynamics
+
+.emphasize[*2. Seasonal variation*]
+
+---
+background-image: url('./resources/raw_acfs.jpg')
+background-size: contain
+
+---
+background-image: url('./resources/dist_lag1.svg')
+background-size: contain
+
+---
+background-image: url('./resources/dist_lag2.svg')
+background-size: contain
+
+---
+class: full-size
+## Model components
+&lt;img align="center" width="530" height="370" src="resources/crank.jpg" style="float: right; 
+  margin: 10px;"&gt;
+
+1. Multispecies temporal dynamics
+
+2. Seasonal variation
+
+.emphasize[*3. Vegetation associations*]
+
+---
+
+background-image: url('./resources/vegetation.png')
+background-size: contain
+
+---
+
+background-image: url('./resources/ndvi_hier.svg')
+background-size: contain
+
+---
+
+background-image: url('./resources/krat_sketch.svg')
+background-size: contain
+## What did we find?
+
+---
+
+background-image: url('./resources/NDVI_contrasts.jpeg')
+background-size: contain
+
+---
+
+background-image: url('./resources/krat_sketch.svg')
+background-size: contain
+## What did we find?
+  
+.emphasize[*1. Higher NDVI = more captures*]
+
+---
+
+background-image: url('./resources/mintemp_conditionals.jpeg')
+background-size: contain
+
+---
+
+background-image: url('./resources/krat_sketch.svg')
+background-size: contain
+## What did we find?
+
+1. Higher NDVI = more captures
+
+.emphasize[*2. Varying seasonal effects*]
+
+---
+background-image: url('./resources/VAR_cors.jpeg')
+background-size: contain
+
+---
+background-image: url('./resources/DM_imp_response.jpg')
+background-size: contain
+
+---
+
+background-image: url('./resources/krat_sketch.svg')
+background-size: contain
+## What did we find?
+  
+1. Higher NDVI = more captures
+
+2. Varying seasonal effects
+
+.emphasize[*3. Complex dependencies*]
+
+---
+
+background-image: url('./resources/all_fcs.jpeg')
+background-size: contain
+
+---
+
+background-image: url('./resources/DM_OL_trends.jpeg')
+background-size: contain
+
+---
+background-image: url('./resources/krat_sketch.svg')
+background-size: contain
+## What did we find?
+  
+1. Higher NDVI = more captures
+
+2. Varying seasonal effects
+
+3. Complex dependencies
+
+.emphasize[*4. Improved forecasts*]
+
+---
+
+class: inverse middle center big-subsection
+
+# Thank you. Questions?
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
